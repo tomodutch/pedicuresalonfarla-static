@@ -4,7 +4,7 @@
 <div class="container container-card top30 bottom30">
     <div class="row">
         <div class="col-xs-4">
-            <img class="img-responsive img-rounded" src="http://pedicuresalonfarla.nl/wp-content/uploads/2015/09/IMG_0063a.jpg" alt="">
+            <img class="img-responsive img-rounded" src="{{$page->url('images/irene.jpg')}}" alt="">
         </div>
         <div class="col-xs-8">
             <p>
