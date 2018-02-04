@@ -12,7 +12,7 @@
     @include('_layouts/meta/meta')
 
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{$page->url('/css/main.css?ts=4567')}}">
+    <link rel="stylesheet" href="{{$page->url('/css/main.css?ts=' . time() )}}">
     <title>{{ $page->title() }}</title>
   </head>
     <body>
