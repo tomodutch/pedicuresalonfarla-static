@@ -1,3 +1,22 @@
+body {
+  background-color: #ecf0f1;
+}
+
+header {
+  background-color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+.container-card {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.133) 0px 2.1px 4.9px 0px;
+  padding: 25px;
+}
+
 /* @font-face kit by Fonts2u (http://www.fonts2u.com) */
 @font-face {
   font-family: "BrockScript";
@@ -32,6 +51,10 @@ nav.navbar {
 
 .top30 {
   margin-top: 30px;
+}
+
+.bottom30 {
+  margin-bottom: 30px;
 }
 
 .footer {
