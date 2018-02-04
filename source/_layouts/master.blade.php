@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <!doctype html>
 <html lang="en">
   <head>
@@ -187,8 +186,9 @@
     <title>Pedicuresalon Farla</title>
   </head>
     <body>
+        @include('_layouts/head')
         @yield('body')
-
+        @include('_layouts/footer')
         <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>  
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCe1G0tGBJkcJt_yqRzOQQKuaHuel1h3Bs&callback=initMap&language=nl" async defer></script>
     </body>
