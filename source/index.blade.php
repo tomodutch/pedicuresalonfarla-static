@@ -6,7 +6,7 @@
     <div class="hero-text bg-fade-in">
       <h1>Pedicuresalon Farla</h1>
       <p>Uw voeten in de beste handen</p>
-      <button class="btn btn-default">Afspraak maken</button>
+      <a href="{{ $page->url('afspraak-maken') }}" class="btn btn-default">Afspraak maken</a>
     </div>
   </div>
 </div>
