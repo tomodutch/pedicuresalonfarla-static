@@ -76,7 +76,7 @@ body, html {
   /* The image used */
   background-image: url("http://pedicuresalonfarla.nl/wp-content/uploads/2015/09/garda-202065_1920.jpg");
   /* Set a specific height */
-  height: 100%;
+  height: 90vh;
   min-height: 200px;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
