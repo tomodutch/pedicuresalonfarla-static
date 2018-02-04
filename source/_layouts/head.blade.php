@@ -38,11 +38,10 @@
       </button>
       </div>
 
-      
-
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
+          <li><a href="{{$page->url('/')}}">Home</a></li>
           <li class="{{$page->active('over-mij')}}"><a href="{{$page->url('over-mij')}}">Over mij</a></li>
           <li class="{{$page->active('prijslijst')}}"><a href="{{$page->url('prijslijst')}}">Prijslijst</a></li>
           <li 
