@@ -10,7 +10,13 @@ return [
     'isSelected' => function ($page, $section) {
         return str_contains($page->getPath(), $section);
     },
-    'active' => function($page, $section) {
-        return $page->isSelected($section) ? 'active' : '';
+    'active' => function($page, ...$sections) {
+        foreach ($sections as $section) {
+            if ($page->isSelected($section)) {
+                return 'active';
+            }
+        }
+
+        return '';
     }
 ];

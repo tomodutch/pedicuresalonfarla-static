@@ -193,6 +193,9 @@
         @include('_layouts/head')
         @yield('body')
         @include('_layouts/footer')
+
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>  
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCe1G0tGBJkcJt_yqRzOQQKuaHuel1h3Bs&callback=initMap&language=nl" async defer></script>
     </body>

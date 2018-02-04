@@ -10,6 +10,11 @@ header {
   color: black;
 }
 
+.block-center {
+  display: block;
+  margin: 0 auto;
+}
+
 .bg-white {
   background-color: white;
 }

@@ -45,7 +45,18 @@
       <ul class="nav navbar-nav">
           <li class="{{$page->active('over-mij')}}"><a href="{{$page->url('over-mij')}}">Over mij</a></li>
           <li class="{{$page->active('prijslijst')}}"><a href="{{$page->url('prijslijst')}}">Prijslijst</a></li>
-          <li class="{{$page->active('behandelingen')}}"><a href="{{$page->url('behandelingen')}}">Behandelingen</a></li>
+          <li 
+            class="dropdown {{$page->active('behandeling') }}">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Behandelingen <b class="caret"></b></a>
+                <ul class="dropdown-menu text-left">
+                    <li><a href="{{$page->url('behandeling/pedicure-basis-all-in')}}">Pedicure basis all-in</a></li>
+                    <li><a href="{{$page->url('behandeling/pedicure-deluxe')}}">Pedicure deluxe</a></li>
+                    <li><a href="{{$page->url('behandeling/pedicure-la-couleur')}}">Pedicure la couleur</a></li>
+                    <li><a href="{{$page->url('behandeling/gel-nail-repair')}}">Gel nail repair</a></li>
+                    <li><a href="{{$page->url('behandeling/body-sugaring')}}">Body sugaring</a></li>
+                </ul>
+        </li>
+
           <li class="{{$page->active('afspraak-maken')}}"><a href="{{$page->url('afspraak-maken')}}">Afspraak maken</a></li>
       </ul>
       </div><!-- /.navbar-collapse -->
