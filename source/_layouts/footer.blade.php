@@ -6,7 +6,6 @@
                     <li><i class="fas fa-phone-volume"></i> 06 24526696</li>
                     <li><i class="fas fa-road"></i> 4695BJ Rädda Barnenstraat 1</li> 
                     <li><i class="fas fa-building"></i> Sint-Maartensdijk</li>
-                    <li><a href="#">Sitemap</a></li>
                 </ul>
             </div>
             <div class="col-xs-4">

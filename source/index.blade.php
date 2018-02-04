@@ -87,3 +87,7 @@
   </div>
 </div>
 @endsection
+
+@section('scripts')
+  @include('_layouts/map')
+@endsection
