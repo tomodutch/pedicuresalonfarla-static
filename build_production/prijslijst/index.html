@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+  /* @font-face kit by Fonts2u (http://www.fonts2u.com) */ @font-face {font-family:"BrockScript";src:url("https://tfarla.github.io/pedicuresalonfarla-static/fonts/BrockScript.eot?") format("eot"),url("https://tfarla.github.io/pedicuresalonfarla-static/fonts/BrockScript.woff") format("woff"),url("https://tfarla.github.io/pedicuresalonfarla-static/fonts/BrockScript.ttf") format("truetype"),url("https://tfarla.github.io/pedicuresalonfarla-static/fonts/BrockScript.svg#BrockScript") format("svg");font-weight:normal;font-style:normal;}    
+    </style>
+
+      <script>
+          var map;
+          function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+              center: {lat: 51.5498220, lng: 4.0804300},
+              zoom: 15,
+              styles: [
+  {
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#f5f5f5"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#616161"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#f5f5f5"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.land_parcel",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#bdbdbd"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#eeeeee"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#e5e5e5"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#9e9e9e"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#ffffff"
+      }
+    ]
+  },
+  {
+    "featureType": "road.arterial",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#dadada"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#616161"
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#9e9e9e"
+      }
+    ]
+  },
+  {
+    "featureType": "transit.line",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#e5e5e5"
+      }
+    ]
+  },
+  {
+    "featureType": "transit.station",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#eeeeee"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#c9c9c9"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#9e9e9e"
+      }
+    ]
+  }
+]
+            });
+
+            var marker = new google.maps.Marker({
+              position: {lat: 51.5498220, lng: 4.0804300},
+              map: map,
+              label: 'Radda barnenstraat 1'
+            });
+          }
+        </script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://tfarla.github.io/pedicuresalonfarla-static/css/main.css">
+    <title>Pedicuresalon Farla</title>
+  </head>
+    <body>
+        <header>
+  <div class="row" style="padding: 5px 0 0 0; border-bottom: 1px solid #e7e7e7">
+        <div class="col-xs-12">
+          <small class="text-muted">Uw voeten in de beste handen</small>
+
+          <ul class="list-unstyled pull-right list-inline">
+            <li><i class="fab fa-instagram fa-lg" style="color: #0086d2"></i>  </li>
+            <li>
+                <i class="fab fa-facebook-square fa-lg" style="color: #0086d2"></i>              
+            </li>
+          </ul>
+        </div>
+    </div>
+  </div>
+
+  <div class="row" style="color: #0086d2">
+    <div class="col-xs-12">
+        <h1 class="text-center" style="font-family: BrockScript;">Pedicuresalon Farla</h1>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-default" role="navigation" style="border-top: 1px solid #e7e7e7">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      </div>
+
+      
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+          <li class=""><a href="https://tfarla.github.io/pedicuresalonfarla-static/over-mij">Over mij</a></li>
+          <li class="active"><a href="https://tfarla.github.io/pedicuresalonfarla-static/prijslijst">Prijslijst</a></li>
+          <li class=""><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandelingen">Behandelingen</a></li>
+          <li class=""><a href="https://tfarla.github.io/pedicuresalonfarla-static/afspraak-maken">Afspraak maken</a></li>
+      </ul>
+      </div><!-- /.navbar-collapse -->
+  </nav>
+</header>        <div class="container container-card top30 bottom30">
+    <div class="row">
+        <table class="table table-responsive">
+            <tbody>
+                <tr>
+                    <td colspan="3"><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/pedicure-basis-all-in/" target="_blank" rel="noopener">Pedicure Basis All-in</a></td>
+                    <td>&euro; 21,-</td>
+                    <td><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/pedicure-basis-all-in/" target="_blank" rel="noopener">Lees meer</a></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/pedicure-deluxe/" target="_blank" rel="noopener">Pedicure deluxe</a></td>
+                    <td>&euro; 27,-</td>
+                    <td><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/pedicure-deluxe/" target="_blank" rel="noopener">Lees meer</a></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/pedicure-la-couleur/" target="_blank" rel="noopener">Pedicure la couleur</a></td>
+                    <td>&euro; 27,-</td>
+                    <td><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/pedicure-la-couleur/" target="_blank" rel="noopener">Lees meer</a></td>
+                </tr>
+                <tr>
+                    <th colspan="6"><b>Gel nail repair</b></th>
+                </tr>
+                <tr>
+                    <td colspan="3"><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/gel-nail-repair/" target="_blank" rel="noopener">grote teennagel</a></td>
+                    <td>&euro; 15,-</td>
+                    <td><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/gel-nail-repair/" target="_blank" rel="noopener">Lees meer</a></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/gel-nail-repair/" target="_blank" rel="noopener">beide grote teennagels</a></td>
+                    <td>&euro; 25,-</td>
+                    <td><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/gel-nail-repair/" target="_blank" rel="noopener">Lees meer</a></td>
+                </tr>
+                <tr>
+                    <th colspan="6"><b>Body sugaring</b></th>
+                </tr>
+                <tr>
+                    <td colspan="3"><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/body-sugaring/" target="_blank" rel="noopener">wenkbrauwen</a></td>
+                    <td>&euro; 10,-</td>
+                    <td><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/body-sugaring/" target="_blank" rel="noopener">Lees meer</a></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/body-sugaring/" target="_blank" rel="noopener">bovenlip</a></td>
+                    <td>&euro; 10,-</td>
+                    <td><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/body-sugaring/" target="_blank" rel="noopener">Lees meer</a></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/body-sugaring/" target="_blank" rel="noopener">kin</a></td>
+                    <td>&euro; 10,-</td>
+                    <td><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/body-sugaring/" target="_blank" rel="noopener">Lees meer</a></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/body-sugaring/" target="_blank" rel="noopener">volledig gezicht</a></td>
+                    <td>&euro; 20,-</td>
+                    <td><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/body-sugaring/" target="_blank" rel="noopener">Lees meer</a></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/body-sugaring/" target="_blank" rel="noopener">onder benen</a></td>
+                    <td>&euro; 18,-</td>
+                    <td><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/body-sugaring/" target="_blank" rel="noopener">Lees meer</a></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/body-sugaring/" target="_blank" rel="noopener">volledige benen</a></td>
+                    <td>&euro; 35,-</td>
+                    <td><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/body-sugaring/" target="_blank" rel="noopener">Lees meer</a></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/body-sugaring/" target="_blank" rel="noopener">neus</a></td>
+                    <td>&euro; 5,-</td>
+                    <td><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/body-sugaring/" target="_blank" rel="noopener">Lees meer</a></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/body-sugaring/" target="_blank" rel="noopener">oren</a></td>
+                    <td>&euro; 5,-</td>
+                    <td><a href="https://tfarla.github.io/pedicuresalonfarla-static/behandeling/body-sugaring/" target="_blank" rel="noopener">Lees meer</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+        <footer class="footer" style="background-color: #2C3E50; padding-top:15px">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <ul class="list-unstyled text-center list-inline">
+                    <li><i class="fab fa-instagram fa-lg"></i></li>
+                    <li><i class="fab fa-facebook-square fa-lg"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4">
+                <ul class="list-unstyled">
+                <li class="text-left"><a href="#">Over mij</a></li>
+                <li class="text-left"><a href="#">Prijslijst</a></li>
+                <li class="text-left"><a href="#">Behandelingen</a></li>
+                <li class="text-left"><a href="#">Afspraak maken</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-4 text-center">
+                <img src="http://pedicuresalonfarla.nl/wp-content/uploads/2015/09/provoet.png"  class="img-responsive" style="display: block; margin: 0 auto;" alt="Aangesloten bij Provoet">                    
+            </div>
+            <div class="col-xs-4">
+                <ul class="list-unstyled text-left pull-right">
+                    <li><a href="#">Sitemap</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>  
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCe1G0tGBJkcJt_yqRzOQQKuaHuel1h3Bs&callback=initMap&language=nl" async defer></script>
+    </body>
+</html>
