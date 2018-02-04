@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!doctype html>
 <html lang="en">
   <head>
@@ -182,9 +183,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>Pedicuresalon Farla</title>
   </head>
-  <body>
+    <body>
+        @yield('body')
 
-  </body>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>  
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCe1G0tGBJkcJt_yqRzOQQKuaHuel1h3Bs&callback=initMap&language=nl" async defer></script>
+    </body>
 </html>
