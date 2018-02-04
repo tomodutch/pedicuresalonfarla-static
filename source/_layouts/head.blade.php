@@ -20,7 +20,9 @@
   <div style="color: #0086d2">
       <div class="container">
           <div class="row col-xs-12">
-            <h1 class="text-center" style="font-family: BrockScript;">Pedicuresalon Farla</h1>
+              <a href="{{$page->url('/')}}">
+                <h1 class="text-center" style="font-family: BrockScript;">Pedicuresalon Farla</h1>                  
+              </a>
           </div>
       </div>
   </div>
