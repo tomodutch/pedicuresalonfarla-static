@@ -48,12 +48,12 @@
           <li 
             class="dropdown {{$page->active('behandeling') }}">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Behandelingen <b class="caret"></b></a>
-                <ul class="dropdown-menu text-left">
-                    <li><a href="{{$page->url('behandeling/pedicure-basis-all-in')}}">Pedicure basis all-in</a></li>
-                    <li><a href="{{$page->url('behandeling/pedicure-deluxe')}}">Pedicure deluxe</a></li>
-                    <li><a href="{{$page->url('behandeling/pedicure-la-couleur')}}">Pedicure la couleur</a></li>
-                    <li><a href="{{$page->url('behandeling/gel-nail-repair')}}">Gel nail repair</a></li>
-                    <li><a href="{{$page->url('behandeling/body-sugaring')}}">Body sugaring</a></li>
+                <ul class="dropdown-menu">
+                    <li class="{{ $page->active('behandeling/pedicure-basis-all-in') }}"><a href="{{$page->url('behandeling/pedicure-basis-all-in')}}">Pedicure basis all-in</a></li>
+                    <li class="{{ $page->active('behandeling/pedicure-deluxe') }}"><a href="{{$page->url('behandeling/pedicure-deluxe')}}">Pedicure deluxe</a></li>
+                    <li class="{{ $page->active('behandeling/pedicure-la-couleur') }}"><a href="{{$page->url('behandeling/pedicure-la-couleur')}}">Pedicure la couleur</a></li>
+                    <li class="{{ $page->active('behandeling/gel-nail-repair') }}"><a href="{{$page->url('behandeling/gel-nail-repair')}}">Gel nail repair</a></li>
+                    <li class="{{ $page->active('behandeling/body-sugaring') }}"><a href="{{$page->url('behandeling/body-sugaring')}}">Body sugaring</a></li>
                 </ul>
         </li>
 

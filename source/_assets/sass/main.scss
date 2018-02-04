@@ -142,9 +142,11 @@ footer {
     text-align: center;
 }
 
-.navbar-nav > li {
-    display: inline-block;
-    float:none;
+@media (min-width: 767px) {
+  .navbar-nav > li {
+      display: inline-block;
+      float:none;
+  }
 }
 
 .navbar-default {
