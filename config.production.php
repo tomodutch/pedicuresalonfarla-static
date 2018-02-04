@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'https://tfarla.github.io/pedicuresalonfarla-static/',
+    'baseUrl' => 'https://www.pedicuresalonfarla.nl',
     'production' => true,
 ];
