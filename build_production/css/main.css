@@ -17,14 +17,6 @@ header {
   padding: 25px;
 }
 
-/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
-@font-face {
-  font-family: "BrockScript";
-  src: url("fonts/BrockScript.eot?") format("eot"), url("fonts/BrockScript.woff") format("woff"), url("fonts/BrockScript.ttf") format("truetype"), url("fonts/BrockScript.svg#BrockScript") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
 nav.navbar {
   margin-bottom: 0;
 }
