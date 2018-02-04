@@ -78,7 +78,6 @@ body, html {
 /* The hero image */
 .hero-image {
   /* The image used */
-  background-image: url("http://pedicuresalonfarla.nl/wp-content/uploads/2015/09/garda-202065_1920.jpg");
   /* Set a specific height */
   height: 90vh;
   min-height: 200px;
