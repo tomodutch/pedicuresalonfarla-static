@@ -24,7 +24,7 @@
     </div>
 </div>
 
-    <a href="#">
+    <a href="{{ $page->url('/afspraak-maken') }}" class="container-fluid">
       <section class="row call-to-action">
           <div class="container">
               <div class="row">
