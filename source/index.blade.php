@@ -2,7 +2,7 @@
 
 @section('body')
 <div class="container-fluid bg-white">
-  <div class="hero-image">
+  <div class="hero-image" style="background-image: url({{ $page->url('images/hero.jpg') }})">
     <div class="hero-text bg-fade-in">
       <h1>Pedicuresalon Farla</h1>
       <p>Uw voeten in de beste handen</p>
@@ -12,7 +12,7 @@
 </div>
 <div class="container container-card">
   <div class="row" style="display: flex; min-height: 40vh">
-      <div class="col-xs-6 col-md-4" style="padding-left: 0; background: url('http://pedicuresalonfarla.nl/wp-content/uploads/2015/09/IMG_0063a.jpg'); background-size: cover; background-position: top"></div>
+      <div class="col-xs-6 col-md-4" style="padding-left: 0; background: url('{{ $page->url('images/irene.jpg') }}'); background-size: cover; background-position: top"></div>
       <div class="col-xs-6 col-md-8" style="display: flex; align-items: center;">
           <blockquote style="border: none">
             <p>
