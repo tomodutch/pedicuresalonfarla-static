@@ -28,14 +28,16 @@
   </div>
 
   <nav class="navbar navbar-default" role="navigation" style="border-top: 1px solid #e7e7e7">
+      <input type="checkbox" id="navbar-toggle-cbox">
+
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <label for="navbar-toggle-cbox" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" aria-controls="navbar">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-      </button>
+      </label>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -44,10 +46,10 @@
           <li><a href="{{$page->url('/')}}">Home</a></li>
           <li class="{{$page->active('over-mij')}}"><a href="{{$page->url('over-mij')}}">Over mij</a></li>
           <li class="{{$page->active('prijslijst')}}"><a href="{{$page->url('prijslijst')}}">Prijslijst</a></li>
-          <li 
-            class="dropdown {{$page->active('behandeling') }}">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Behandelingen <b class="caret"></b></a>
-                <ul class="dropdown-menu">
+          <li class="dropdown {{$page->active('behandeling') }}">
+          <input type="checkbox" id="service-cbox">
+            <label for="service-cbox" class="dropdown-toggle" data-toggle="dropdown">Behandelingen <b class="caret"></b></label>
+                <ul class="dropdown-menu" id="service-nav">
                     <li class="{{ $page->active('behandeling/pedicure-basis-all-in') }}"><a href="{{$page->url('behandeling/pedicure-basis-all-in')}}">Pedicure basis all-in</a></li>
                     <li class="{{ $page->active('behandeling/pedicure-deluxe') }}"><a href="{{$page->url('behandeling/pedicure-deluxe')}}">Pedicure deluxe</a></li>
                     <li class="{{ $page->active('behandeling/pedicure-la-couleur') }}"><a href="{{$page->url('behandeling/pedicure-la-couleur')}}">Pedicure la couleur</a></li>
