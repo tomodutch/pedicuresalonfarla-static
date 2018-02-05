@@ -3,6 +3,11 @@
 return [
     'baseUrl' => '/',
     'url' => function($page, $segment) {
+        $trailing = '';
+        if (str_contains($segment, '.') === false) {
+            $trailing = '/';
+        }
+
         return implode('/', [rtrim($page->baseUrl, '/'), ltrim($segment, '/')]);
     },
     'title' => function($page) {
