@@ -6,7 +6,7 @@
     <div class="hero-text bg-fade-in">
       <h1>Pedicuresalon Farla</h1>
       <p>Uw voeten in de beste handen</p>
-      <a href="{{ $page->url('afspraak-maken') }}" class="btn btn-default">Afspraak maken</a>
+      <a href="{{ $page->url('afspraak-maken/') }}" class="btn btn-default">Afspraak maken</a>
     </div>
   </div>
 </div>
@@ -24,7 +24,7 @@
     </div>
 </div>
 
-    <a href="{{ $page->url('/afspraak-maken') }}" class="container-fluid">
+    <a href="{{ $page->url('/afspraak-maken/') }}" class="container-fluid">
       <section class="row call-to-action">
           <div class="container">
               <div class="row">
