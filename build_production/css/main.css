@@ -156,11 +156,31 @@ footer {
   text-align: center;
 }
 
+#navbar-toggle-cbox {
+  display: none;
+}
+
+#navbar-toggle-cbox:checked ~ .collapse {
+  display: block;
+}
+
+#service-cbox {
+  display: none;
+}
+
+#service-cbox:checked ~ #service-nav {
+  display: block;
+}
+
 @media (min-width: 767px) {
   .navbar-nav > li {
     display: inline-block;
     float: none;
   }
+}
+
+.navbar label {
+  font-weight: normal;
 }
 
 .navbar-default {
@@ -181,12 +201,14 @@ footer {
   color: #b7b7b7;
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > label {
   color: #b7b7b7;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav > li > label:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > label:focus {
   color: #0086d2;
 }
 
@@ -194,12 +216,15 @@ footer {
   background-color: #ffffff;
 }
 
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > label {
   color: #b7b7b7;
 }
 
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+.navbar-default .navbar-nav > li > .dropdown-menu > li > label:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > label:focus {
   color: #0086d2;
   background-color: #ffffff;
 }
@@ -210,21 +235,30 @@ footer {
 
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > label,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > label:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > label:focus {
   color: #0086d2;
   background-color: #ffffff;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .open > label,
+.navbar-default .navbar-nav > .open > label:hover,
+.navbar-default .navbar-nav > .open > label:focus {
   color: #0086d2;
   background-color: #ffffff;
 }
 
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > label,
+.navbar-default .navbar-nav > .open > label:hover,
+.navbar-default .navbar-nav > .open > label:focus {
   color: #0086d2;
   background-color: #ffffff;
 }
@@ -256,16 +290,22 @@ footer {
 }
 
 @media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > label {
     color: #b7b7b7;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > label:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > label:focus {
     color: #0086d2;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > label,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > label:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > label:focus {
     color: #0086d2;
     background-color: #ffffff;
   }
