@@ -62,6 +62,14 @@
                 <table class="table table-primary">
                     <tbody>
                         <tr>
+                            <td>
+                                <i class="fab fa-whatsapp" style="color: black"></i>
+                            </td>
+                            <td>
+                                <a href="http://wa.me/+310624526696?text=Hallo. ik wil een afspraak maken." target="_blank">Klik hier om een afspraak te maken via WhatsApp</a>
+                            </td>
+                        </tr>
+                        <tr>
                             <td>Telefoonnummer</td>
                             <td>06 24526696</td>
                         </tr>
