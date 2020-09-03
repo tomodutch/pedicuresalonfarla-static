@@ -22,7 +22,7 @@
 
         @yield('scripts')
 
-        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>  
+        <script defer src="https://use.fontawesome.com/releases/v5.10.0/js/all.js"></script>  
         <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
