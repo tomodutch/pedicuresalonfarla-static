@@ -4,12 +4,6 @@
           <div class="row">
               <div class="col-xs-12">
               <small class="text-muted">Uw voeten in de beste handen</small>
-                <ul class="list-unstyled pull-right list-inline">
-                    <li><i class="fab fa-instagram fa-lg" style="color: #0086d2"></i>  </li>
-                    <li>
-                        <i class="fab fa-facebook-square fa-lg" style="color: #0086d2"></i>              
-                    </li>
-                </ul>
             </div>
         </div>
     </div>
@@ -53,8 +47,6 @@
                     <li class="{{ $page->active('behandeling/pedicure-basis-all-in') }}"><a href="{{$page->url('behandeling/pedicure-basis-all-in/')}}">Pedicure basis all-in</a></li>
                     <li class="{{ $page->active('behandeling/pedicure-deluxe') }}"><a href="{{$page->url('behandeling/pedicure-deluxe/')}}">Pedicure deluxe</a></li>
                     <li class="{{ $page->active('behandeling/pedicure-la-couleur') }}"><a href="{{$page->url('behandeling/pedicure-la-couleur/')}}">Pedicure la couleur</a></li>
-                    <li class="{{ $page->active('behandeling/gel-nail-repair') }}"><a href="{{$page->url('behandeling/gel-nail-repair/')}}">Gel nail repair</a></li>
-                    <li class="{{ $page->active('behandeling/body-sugaring') }}"><a href="{{$page->url('behandeling/body-sugaring/')}}">Body sugaring</a></li>
                 </ul>
         </li>
 

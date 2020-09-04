@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="nl">
   <head>
     <style>
   /* @font-face kit by Fonts2u (http://www.fonts2u.com) */ @font-face {font-family:"BrockScript";src:url("{{$page->url('fonts/BrockScript.eot?')}}") format("eot"),url("{{$page->url('fonts/BrockScript.woff')}}") format("woff"),url("{{$page->url('fonts/BrockScript.ttf')}}") format("truetype"),url("{{ $page->url('fonts/BrockScript.svg#BrockScript') }}") format("svg");font-weight:normal;font-style:normal;}    
