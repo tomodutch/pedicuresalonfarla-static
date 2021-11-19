@@ -1,7 +1,9 @@
 <?php
 
 return [
-    'baseUrl' => '/',
+    'production' => false,
+    'collections' => [],
+    'baseUrl' => '',
     'url' => function($page, $segment) {
         $trailing = '';
         if (str_contains($segment, '.') === false) {
