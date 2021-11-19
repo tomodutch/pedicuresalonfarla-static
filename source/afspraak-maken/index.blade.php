@@ -1,8 +1,6 @@
 @extends('_layouts.master')
 
 @section('body')
-<div id="map"></div>
-
     <div class="container container-card top30 bottom30">
     <div class="row">
             <div class="col-xs-12">
@@ -85,9 +83,13 @@
                 </table>
             </div>
         </div>
+        <div class="row">
+  <div class="col-md-12">
+  @include('_layouts/map')
+</div>
+  </div>
     </div>
 @endsection
 
 @section('scripts')
-  @include('_layouts/map')
 @endsection

@@ -8,6 +8,9 @@ body {
 
 header {
   background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
 
 .text-black {
@@ -62,9 +65,12 @@ nav.navbar {
 }
 
 section.call-to-action {
-  background: #0086d2;
   padding: 40px 0;
-  color: white;
+  background-color: #66b6e4;
+  opacity: 1;
+  background-image: radial-gradient(circle at center center, #f9f9f9, #66b6e4), repeating-radial-gradient(circle at center center, #f9f9f9, #f9f9f9, 40px, transparent 80px, transparent 40px);
+  background-blend-mode: multiply;
+
 }
 
 section.call-to-action h2 {
@@ -77,7 +83,7 @@ svg {
 
 body,
 html {
-  height: 100%;
+  height: auto;
 }
 
 body {
@@ -85,7 +91,9 @@ body {
   flex-direction: column;
 }
 
-
+.specialization {
+  padding-left: 0;
+}
 
 /* The hero image */
 .hero-image {
@@ -176,7 +184,7 @@ body {
 }
 
 #map {
-  height: 500px;
+  height: 360px;
   width: 100%;
 }
 
@@ -224,6 +232,7 @@ footer a {
 
 .navbar label {
   font-weight: normal;
+  cursor: pointer;
 }
 
 .navbar-default {
@@ -334,6 +343,10 @@ footer a {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > label:focus {
     color: #0086d2;
     background-color: #ffffff;
+  }
+
+  .container {
+    width: 100%;
   }
 }
 
@@ -475,7 +488,7 @@ footer a {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .service-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .service-card,
