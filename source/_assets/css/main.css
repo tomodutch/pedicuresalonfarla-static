@@ -198,6 +198,19 @@ body {
   flex: 1 0 auto;
 }
 
+.appointment svg {
+  color: black;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
 /* Place text in the middle of the image */
 .hero-text {
   opacity: 0.9;
