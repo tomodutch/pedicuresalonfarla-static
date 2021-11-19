@@ -2,7 +2,7 @@
 <div class="container-fluid bg-white">
   <div
     class="hero-image"
-    style="background-image: url({{ $page->url('images/hero.jpg') }})"
+    style="background-image: url({{ $page->url('images/hero.jpeg') }})"
   >
     <div class="hero-text bg-fade-in">
       <h1>Pedicuresalon Farla</h1>
