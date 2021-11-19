@@ -1,9 +1,9 @@
 body {
   background-color: #f7fafc;
   opacity: 1;
-  background-image:  radial-gradient(#e8f1f8 0.9500000000000001px, transparent 0.9500000000000001px), radial-gradient(#e8f1f8 0.9500000000000001px, #f7fafc 0.9500000000000001px);
-  background-size: 38px 38px;
-  background-position: 0 0,19px 19px;
+  background-image:  radial-gradient(#acdbff 1.1500000000000001px, transparent 1.1500000000000001px), radial-gradient(#acdbff 1.1500000000000001px, #f7fafc 1.1500000000000001px);
+  background-size: 46px 46px;
+  background-position: 0 0,23px 23px;
 }
 
 header {
