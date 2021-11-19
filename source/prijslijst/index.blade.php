@@ -11,11 +11,6 @@
                     <td><a href="{{ $page->url('/behandeling/pedicure-basis-all-in/') }}">Lees meer</a></td>
                 </tr>
                 <tr>
-                    <td colspan="3"><a href="{{ $page->url('/behandeling/pedicure-la-couleur/') }}">Pedicure la couleur</a></td>
-                    <td>&euro; 30,-</td>
-                    <td><a href="{{ $page->url('/behandeling/pedicure-la-couleur/') }}">Lees meer</a></td>
-                </tr>
-                <tr>
                     <td colspan="3"><a href="{{ $page->url('/behandeling/pedicure-deluxe/') }}">Pedicure deluxe</a></td>
                     <td>&euro; 32,-</td>
                     <td><a href="{{ $page->url('/behandeling/pedicure-deluxe/') }}">Lees meer</a></td>
