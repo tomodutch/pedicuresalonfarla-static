@@ -1,3 +1,28 @@
+@font-face {
+  font-family: "Metropolis";
+  src: url('/fonts/Metropolis-Regular.woff2') format('woff2'), 
+    url('/fonts/Metropolis-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Metropolis";
+  src: url('/fonts/Metropolis-Bold.woff2') format('woff2'), 
+    url('/fonts/Metropolis-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+*, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6  {
+  font-family: "Metropolis","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
 body {
   background-color: #f7fafc;
   opacity: 1;
