@@ -34,3 +34,4 @@
     </tr>
 </tbody>
 </table>
+* kan afwijken door de COVID-19 maatregelen
